@@ -1,0 +1,59 @@
+html, body {
+  box-sizing: border-box;
+}
+
+/*link styling*/
+a:link{ color:purple}
+a:visted{color:goldenrod}
+a:hover{color:navy}
+a:active{color:darkgrey}
+
+/* styling for 'header' goes here*/
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header h1{
+font-size: 72px;
+}
+
+/* styling for 'main' goes here*/
+main{
+  color:black;
+}
+
+main h2{
+  text-align: center;
+}
+
+main.wrapper{
+  width: 400px;
+  margin: auto;
+}
+
+main div {
+  padding: 20px 0px;
+}
+
+img{
+  width: 400px;
+}
+.image-rounder{
+  border-radius: 1000px;
+}
+
+main p {
+  font-family:Arial, Helvetica, sans-serif;
+}
+/*styling for 'footer' goes here */
+
+footer{
+  background-color: black;
+  color:white;
+  text-align:center;
+}
+
+
